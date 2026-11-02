@@ -1,0 +1,21 @@
+[mod]
+id = "smoothie_capes"
+version = "0.2.0"
+
+[compatibility]
+horizon_revision = "68ff4699847c591d3cb81f0af6b131a7e2239f3f"
+
+[[injection]]
+id = "smoothie-cape"
+target = "horizon_client_lib::mobs::render::cape"
+kind = "OVERWRITE"
+helper = "cape.rs"
+bindings = [
+  { name = "m", ty = "&Mob", value = "m" },
+  { name = "alpha", ty = "f32", value = "alpha" },
+  { name = "base", ty = "glam::Mat4", value = "base" },
+  { name = "uv", ty = "[f32; 4]", value = "uv" },
+  { name = "light", ty = "u32", value = "light" },
+  { name = "data", ty = "&MobData", value = "data" },
+  { name = "out", ty = "&mut Vec<Vertex>", value = "out" },
+]
