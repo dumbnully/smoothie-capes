@@ -1,2 +1,3 @@
-# smoothie-capes
+# Smoothie Capes
+
 An Wavey Capes inspired mod for Horizon
