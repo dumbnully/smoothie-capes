@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="256" height="256" alt="icon" src="https://github.com/user-attachments/assets/ed7a5324-c110-48e0-9c02-ece3a5598273" />
+<img width="256" height="256" alt="icon" src="assets/icon.png" />
 
 # Smoothie Capes
 
