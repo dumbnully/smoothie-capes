@@ -1,9 +1,9 @@
 [mod]
 id = "smoothie_capes"
-version = "0.5.1"
+version = "0.5.2"
 
 [compatibility]
-horizon_revision = "298f16555756077684eef42631dcd0315c499ef6"
+horizon_revision = "6560641ba51a452f6bc2407baa4eb1b3be517ca8"
 
 [[injection]]
 id = "smoothie-cape"
